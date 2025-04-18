@@ -1,1 +1,2 @@
-AI used to help is Chatgpt
+AI used to help is Chatgpt. And this helped me with the coding since I have no experience in coding a website and insteractive buttons while also brushing up on my coding knowlegde
+The AI also helped me catch any errors that I missed by putting the code in Chatgpt. One of the challenges was figureing out what business to use and figuring out the code to use. Since I put the code in Chatgpt and used the result with the corrections and additions the entire index and style would be considered AI written.
