@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header.hero {
+  background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591') center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  font-weight: bold;
+}
+
+.hero-content {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  background-color: #ff6a00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e55b00;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.alt {
+  background-color: #f9f9f9;
+}
+
+.steps {
+  list-style: decimal inside;
+  max-width: 600px;
+  margin: 2rem auto 0;
+  text-align: left;
+}
+
+.cta.large {
+  margin-top: 2rem;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
